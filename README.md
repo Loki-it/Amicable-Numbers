@@ -54,11 +54,9 @@ This implementation of the amicable numbers calculator was developed in two diff
 
 In this project, execution times between Python and Go are compared to demonstrate performance differences between the two languages:
 
-| Search Limit      | Python Time (seconds) | Go Time (seconds) | Go Speed Advantage |
-|-------------------|-----------------------|--------------------|---------------------|
-| \(10^6\)         | ~3.2                  | ~0.13             | ~24x               |
-| \(10^7\)         | ~32                   | ~1.33             | ~24x               |
-| \(10^8\)         | ~320                  | ~13.3             | ~24x               |
+| Search Limit      | Go Time (seconds) | Python Time (seconds) | Go Speed Advantage |
+|-------------------|-------------------|------------------------|--------------------|
+| \(10^6\)          | 0.130             | 3.238                 | ~25x              |
+| \(10^7\)          | 4.031             | 94.182                | ~23x              |
 
-Developed by [Loki-it](https://github.com/Loki-it)
-
+Developed by [Loki-it](https://github.com/Loki-it) - Tested on a Ryzen 9 5900X
